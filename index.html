@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>
+        <div class="buttons">
+            <button onclick="encryptText()">Encriptar</button>
+            <button onclick="decryptText()">Desencriptar</button>
+        </div>
+    </div>
+    
+    <div class="output-container">
+        <h2>Texto encriptado</h2>
+        <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
+        <button onclick="copyText()">Copiar</button>
+    </div>
+    <footer>   
+        <p class="pie">Designed by Jhonnier @2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
